@@ -1,5 +1,13 @@
 
 
 body{
-    background-color: #ffdf35;
+    background-color: #fffa2c;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff2c32;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
 }
