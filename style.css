@@ -9,13 +9,24 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     color: #fbfbfb;
 }
+.section1{
+    size: 2em;
+}
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
 .skills{
     background-color: #666666;
 }
-#text{
+.paragraph{
     background-color: #fbfbfb;
     color: black;
+    font-size: 16px;
+}
+#gosto{
+    background-color: #666666;
+}
+
+footer{
+    text-align: center;
 }
