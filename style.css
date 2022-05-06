@@ -1,13 +1,16 @@
 
 
 body{
-    background-color: #fffa2c;
+    background-color: #ffdb2d;
 }
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    color: #ff2c32;
+    color: #ff2d50;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
+}
+.skills{
+    background-color: #ff722d ;
 }
