@@ -70,9 +70,10 @@ p{
     text-decoration: none;
 }
 
-ul li:nth-child(odd){
+.hard:nth-child(odd){
     background-color: #97969673;
 }
+
 
 footer{
     text-align: center;
