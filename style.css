@@ -1,30 +1,77 @@
 
 
 body{
-    background-color: #0b0909;
+    background-color: #6e6c6c;
     color: #fbfbfb;
+    padding: 30px;
 }
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fbfbfb;
+.buttom{
+    text-decoration: none;
+    color:#fdfafa;
 }
-.section1{
-    size:;
+
+.sobremim{
+    text-decoration: none;
+    color: #fdfafa;
 }
+
+.myname{
+    font-family: 'Mulish', sans-serif;
+    color: #fdfafa;
+    text-align: center;
+    padding: 20px;
+    font-size: 4rem;
+    
+}
+
+#minhafoto{
+    float: left;
+    padding: 10px;
+    height: 280px;
+    background-color: #cccccc
+   
+}
+
+.image-container{
+    height: 320px;
+    position: relative;
+}
+
 p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 .skills{
-    background-color: #666666;
+    background-color: #131313;
 }
 .paragraph{
-    background-color: #fbfbfb;
+    background-color: #fdfafa;
+    padding: 20px;
+    border-radius: 3px;
     color: black;
     font-size: 16px;
+    text-align: justify;
+    position:absolute;
+    left: 30%;
+    top: 32%;
+   
+    
 }
 #gosto{
+    
     background-color: #666666;
+}
+.indication{
+    color: black;
+}
+
+.blog{
+    color: white;
+    text-decoration: none;
+}
+
+ul li:nth-child(odd){
+    background-color: #97969673;
 }
 
 footer{
