@@ -1,72 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pr-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Eliseu Silva</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Seção 1-->
-    <div>
-        <h1 class="myname">Eliseu da Silva</h1>
-    
+    <header >
+    <div class="header-content">
+    <h1>Eliseu Silva</h1>
     <nav>
-    <a class="buttom" href="https://www.linkedin.com/in/eliseu-da-silva-899239239/" target="_blank"><img src="img/linkedin.svg" alt="logo_linkedin" width="24px"> Linkedin</a> <br>
-
-    <br> <a class="sobremim" href="#habilidades" target="_self"> <img src="img/skills-icon.png" alt="Ícone para Habilidades"> Habilidades</a> <br>
-    </nav> 
-
-        <div class="image-container">
-        <br><img id="minhafoto" src="img/portrait.jpg" alt="foto do autor da página de braços cruzado" width="200px">
-        
-        <p class="paragraph">Sou Eliseu da Silva, nasci em <span><strong>São Paulo</strong></span>, <em> atualmente residindo em Londrina-Paraná,</em> <strong> estudante de Desenvolvimento Web</strong> na <a href="https://www.betrybe.com/" target="_blank" rel="external" > Trybe.</a> <br>
-      
-        <br> Formado em Ciências Aeronáuticas pela UNOPAR-Londrina. Adoro Fotografia 📸 🌌 , Astronomia 🔭 🛰️, Tecnologia 🖥️📱💻(até rimou 🤭), aprender coisas novas e passar adiante. 
-        </p>
-        </div> 
+        <ul class="navigator">
+           <a href="#partial-container"><li>Sobre</a></li>
+           <a class="buttom" href="https://www.linkedin.com/in/eliseu-da-silva-899239239/" target="_blank"><li>Contato</a></li>
+           <a href="#"><li>Galeria</a></li>
+        </ul>
+    </nav>
     </div>
-    <br>
-    <br>
-    <!--Seção 3-->
-    <h3 class="skills">Soft-Skills:</h3>
+    </header>
+<main >
+    <section class="main-content">
+
+    <article class="partial-container">
+    <h2>Um pouco de mim!!!</h2>
+        <p>Sou Eliseu da Silva, nasci em <span><strong>São Paulo</strong></span>. Após morar no Estado de São Paulo, Amazonas e algumas cidades do Paraná, <em> atualmente estou residindo em Londrina-Paraná,</em> <strong> estudante de Desenvolvimento Web</strong> na <a id="school" href="https://www.betrybe.com/" target="_blank" rel="external" > Trybe.</a> <br>
+        <br> Formado em Ciências Aeronáuticas pela UNOPAR-Londrina. Adoro Fotografia 📸 🌌 , Astronomia 🔭 🛰️, Tecnologia 🖥️📱💻(até rimou 🤭), aprender coisas novas e passar adiante.</p> 
+        </p>
+    </article>
+    </section>
+
+    <picture class="image">
+        <img src="./img/minha-foto.jpg" alt="foto do autor" width="200px">
+    </picture>
+   
+    <section id="container">
+        <h3 class="paragraph-skills">Soft-Skills:</h3>
+        <ul class="skills">
+            <li>Dedicação</li>
+            <li>Amigo</li>
+            <li>Adaptação</li>
+            <li>Empatia</li>
+        </ul>
+        
+            
+        
+        <h3 class="paragraph-skills">Hard-Skills:</h3>
+        <ul class="skills">
+            <li>Fogotrafia</li>
+            <li>Photoshop - Básico</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>■■■■■■■■■■■□□□ LOADING NEW SKILLS</li>
+            <li>HTML e CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <div class="my-indication">
+        <h3>Blog que gosto:</h3> 
+        <p>Gosto muito de acompanhar as notícias sobre a <em> Estação Espacial Internacional </em> (ISS - sigla em inglês), por isso deixo o link para quem quiser dar uma passada por lá.
+        <a id="nasa" href="https://blogs.nasa.gov/spacestation/" target="_blank">blogs.nasa.gov/spacestation/</a> </li></p>
+    </div>
+        
+<br><br>
     <a href="https://www.linkedin.com/in/eliseu-da-silva-899239239/" target="_blank" ></a>
-    
-    <ul id="habilidades">
-        <li><strong><em>Dedicação</em></strong></li>
-        <li><strong><em>Amigo</em></strong></li>
-        <li><strong><em>Adaptação</em></strong></li>
-        <li><strong><em>Empatia</em></strong></li>
-    </ul>
-    <!--Seção 4-->
-    <h3 class="skills">Hard-Skills:</h3>
-    <ul>
-        <li class="hard">Fogotrafia</li>
-        <li class="hard">Photoshop - Básico</li>
-        <li class="hard">■■■■■■■■■■■□□□ LOADING NEW SKILLS</li>
-        <li class="hard">Git</li>
-        <li class="hard">GitHub</li>
-    </ul>
-    <!--Seção 5-->
-    <h3 id="gosto">Blog que gosto:</h3>
 
-    <p class="indication">Gosto muito de acompanhar as notícias sobre a <em> Estação Espacial Internacional </em> (ISS - sigla em inglês), por isso
-    deixo o link para quem quiser dar uma passada por lá.
-    
-        <a class="blog" href="https://blogs.nasa.gov/spacestation/" target="_blank"> blogs.nasa.gov/spacestation/</a> </li>
-    </p>
-
- 
-
+    </main>
     <footer>
-        Desenvolvido por: &copy;EliseuSilva
+        <p>Desenvolvido por: &copy;EliseuSilva</p>
     </footer>
-    
-    
     
 </body>
 </html>
