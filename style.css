@@ -1,41 +1,43 @@
 
-body{
+/*#10354f*/
+
+body {
     margin: 0px;
     padding: 0px;
     background-color: #111111e5;
 }
 
-.header-content{
-    background-image: url(./img/capaLinkedin3.png);
-    background-position: 10% 65% ;                        /*95% 40%; */
+.header-content {
+    background-image: url(img/capa-site.png);
+    background-position: 20% 72% ;                        /*95% 40%; */
     background-size: cover;
     margin-top: 0px;
-    height: 200px;
+    height: 250px;
     min-width: 463px;
 }
 
-main{
+main { 
     margin-top: 50px;
 }
 
-h1{
-    color: rgb(30, 231, 23);
+h1 {
+    color: #3795d8;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3.1rem;
+    font-size: 3.5rem;
     text-align: center;
     margin-top: 0px;
-    padding: 15px;
+    padding: 25px;
 }
 
 
-.navigator{
+.navigator {
     list-style: none;
     display: flex;
 }
 
-li{
+li {
     display: flex;
-    background-color: rgba(16, 148, 16, 0.664);
+    background-color: #2781c1a9;
     font-family: 'Mulish', sans-serif;
     font-family: 'Raleway', sans-serif;
     padding: 4px;
@@ -43,28 +45,28 @@ li{
     margin-right: 10px;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-.main-content{
+.main-content {
     background-color: rgb(255, 254, 254);
     border-radius: 5px;
     width: 60%;
     margin: auto;
     display: flex;
 }
-#school{
-    background-color: rgba(16, 148, 16, 0.664);
+#school {
+    background-color: #2781c198;
 }
 
-.partial-container{
+.partial-container {
     display: f;
     padding: 20px;
 }
 
-.image{
+.image {
     display: block;
   
     padding: 20px;
@@ -73,13 +75,13 @@ a{
     margin: auto;
 }
 
-h2,p{
+h2,p { 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     padding: 5px;
 }
 
-#container{
+#container {
     width: 360px;
     margin: auto;
     background-color: white;
@@ -87,7 +89,7 @@ h2,p{
     border-radius: 4px;
 }
 
-.skills li{
+.skills li {
     list-style: circle;
     background-color: white;
     
@@ -104,11 +106,11 @@ p {
 
 }
 
-.paragraph-skills{
-    background-color: rgba(16, 148, 16, 0.664);
+.paragraph-skills {
+    background-color: #2781c18c;
 }
 
-.my-indication{
+.my-indication {
     background-color: rgb(255, 254, 254);
     border-radius: 5px;
     width: 70%;
@@ -117,12 +119,12 @@ p {
     margin-top: 20px;
     padding: 10px;
 }
-#nasa{
-    background-color: rgba(16, 148, 16, 0.664);
+#nasa {
+    background-color:  #2781c18c;;
 }
 
-footer{
-    background-color: rgba(16, 148, 16, 0.664);
+footer {
+    background-color:  #2781c18c;
     color: white;
     text-align: center;
 }
